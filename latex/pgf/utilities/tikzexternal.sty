@@ -1,0 +1,24 @@
+\documentclass{article}
+% main document, called main.tex
+%\usepackage{tikz}
+
+\usepackage{graphicx}
+\usepackage{tikzexternal}
+
+%\usetikzlibrary{external}
+\tikzexternalize
+
+\begin{document}
+\begin{tikzpicture}
+  \node {root}
+    child {node {left}}
+    child {node {right}
+      child {node {child}}
+      child {node {child}}
+    };
+\end{tikzpicture}
+
+A simple image is \tikz \fill (0,0) circle(5pt);.
+
+Furthermore, we might want to draw \tikz[baseline]\draw (0,-1) rectangle (1,1);
+\end{document}
