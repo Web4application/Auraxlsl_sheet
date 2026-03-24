@@ -28,3 +28,9 @@ A simple image is \tikz \fill (0,0) circle(5pt);.
    \draw[help lines] (0,0) grid (5,5);
 \end{tikzpicture}
 \end{document}
+{
+  \pgfkeys{/pgf/images/include external/.code={\includegraphics[viewport=0 0 211.28 175.686]{#1}}}
+  \begin{tikzpicture}
+     ...
+  \end{tikzpicture}
+}% this brace ends the effect of `include external'
