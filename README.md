@@ -61,7 +61,9 @@ Quick starting guide for new plugin devs:
 - Together with a custom eslint [plugin](https://github.com/pymdownx/eslint-plugin) for Obsidan specific code guidelines.
 - A GitHub action is preconfigured to automatically lint every commit on all branches.
 
-## Funding URL
+## Funding URL:
+[buy me a coffee](https://nowpayments.io/donation/Web4app)
+
 
 You can include funding URLs where people who use your plugin can financially support it.
 
@@ -69,7 +71,7 @@ The simple way is to set the `fundingUrl` field to your link in your `manifest.j
 
 ```json
 {
-    "fundingUrl": "https://buymeacoffee.com"
+    "fundingUrl": "[https://buymeacoffee.com](https://nowpayments.io/donation/Web4app)"
 }
 ```
 
