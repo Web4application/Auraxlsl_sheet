@@ -1,4 +1,6 @@
-<html lang="en"><head>
+<html lang="en"
+	
+	<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aura Spreadsheet</title>
@@ -6,8 +8,8 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
-        
-        /* Custom scrollbars */
+     
+		/* Custom scrollbars */
         ::-webkit-scrollbar { width: 10px; height: 10px; }
         ::-webkit-scrollbar-track { background: #f5f5f5; border-left: 1px solid #e5e5e5; border-top: 1px solid #e5e5e5; }
         ::-webkit-scrollbar-thumb { background: #d4d4d4; border: 2px solid #f5f5f5; border-radius: 6px; }
